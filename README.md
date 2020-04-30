@@ -42,6 +42,10 @@
 * git reset commit_SHA
     * Resets to a previous commit in your commit history 
 
+## Git global setup
+* git config --global user.name "FirstName LastName"
+* git config --global user.email "email@address.com"
+
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Img Shields](https://shields.io)
