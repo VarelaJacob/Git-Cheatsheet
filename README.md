@@ -20,7 +20,10 @@
 ## Table of Contents
 
 * [Basic Commands](#basic-commands)
-
+* [Git global setup](#git-global-setup)
+* [Acknowledgements](#acknowledgements)
+* [Create a new repository](#create-a-new-repository)
+* [Push an existing Git repository](#push-an-existing-git-repository)
 
 ## Basic Commands
 * git init
@@ -45,6 +48,21 @@
 ## Git global setup
 * git config --global user.name "FirstName LastName"
 * git config --global user.email "email@address.com"
+
+## Create a new repository
+* git clone https://github.com/VarelaJacob/Git-Cheatsheet.git
+* cd Git-Cheatsheet.git
+* touch README.md
+* git add README.md
+* git commit -m "add README"
+* git push -u origin master
+
+## Push an existing Git repository
+* cd existing_repository
+* git remote rename origin old-origin
+* git remote add origin https://github.com/VarelaJacob/Git-Cheatsheet.git
+* git push -u origin -all
+* git push -u origin --tags
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
